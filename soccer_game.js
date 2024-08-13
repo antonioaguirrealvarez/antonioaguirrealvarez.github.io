@@ -429,7 +429,7 @@ function restartGame() {
 
 function showIntro() {
   gameState = 'intro';
-  if (introSong) introSongs.play();
+  if (introSong) introSong.play();
 }
 
 function renderIntro() {
